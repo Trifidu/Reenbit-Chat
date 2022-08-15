@@ -1,0 +1,57 @@
+@import "../../style/variables";
+
+.sidebar {
+  width: 33%;
+  &_header {
+    box-sizing: border-box;
+    padding: 10px;
+    background-color: $bg-secondary;
+  }
+  &_user {
+    display: inline-block;
+    position: relative;
+
+    &-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+    &-check {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 30%;
+      &-read {
+        fill: #63a565;
+      }
+      &-unread {
+        fill: #792525;
+      }
+    }
+    &-search {
+      box-sizing: border-box;
+      width: 100%;
+
+      background-image: url("../../resources/img/search.svg");
+      background-position: 15px;
+      background-repeat: no-repeat;
+      background-size: 13px;
+
+      font-size: 16px;
+      padding: 12px 20px 12px 40px;
+      margin-top: 30px;
+      border: 1px solid #ddd;
+      border-radius: 20px;
+    }
+  }
+}
+
+@media (max-width: 769px) {
+  .sidebar {
+    width: 100%;
+    &_user {
+      margin-left: 50%;
+      transform: translateX(-50%);
+    }
+  }
+}
