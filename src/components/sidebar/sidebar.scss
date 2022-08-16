@@ -2,19 +2,22 @@
 
 .sidebar {
   width: 33%;
+  border-right: 1px solid $bg-border;
   &_header {
-    box-sizing: border-box;
     padding: 10px;
+    height: 170px;
+    box-sizing: border-box;
     background-color: $bg-secondary;
+    border-bottom: 1px solid $bg-border;
   }
-}
-
-@media (max-width: 769px) {
-  .sidebar {
-    width: 100%;
-    &_user {
-      margin-left: 50%;
-      transform: translateX(-50%);
+  &_chats {
+    height: calc(100vh - 190px);
+    overflow: auto;
+    &-title {
+      font-weight: 400;
+      font-size: 32px;
+      color: #4792b9;
+      margin: 50px 20px;
     }
   }
 }

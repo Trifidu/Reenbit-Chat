@@ -1,5 +1,7 @@
 .sidebar {
   &_user {
+    width: 64px;
+    height: 64px;
     display: inline-block;
     position: relative;
 
@@ -10,8 +12,8 @@
     }
     &-check {
       position: absolute;
-      right: 0;
-      bottom: 0;
+      right: -3px;
+      bottom: -3px;
       width: 30%;
       &-read {
         fill: #63a565;

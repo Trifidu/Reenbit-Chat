@@ -1,0 +1,8 @@
+@import "../../style/variables";
+
+.bottomBar {
+  height: 20px;
+  width: 100%;
+  background-color: $bg-secondary;
+  border-top: 2px solid $bg-border;
+}

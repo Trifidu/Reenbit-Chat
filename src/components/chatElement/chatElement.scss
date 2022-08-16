@@ -1,0 +1,27 @@
+@import "../../style/variables.scss";
+
+.chatElement {
+  padding: 20px;
+  border-bottom: 1px solid $bg-border;
+  transition: all 0.3s;
+  &:hover {
+    background-color: $bg-main;
+  }
+  &_info {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 0.3fr;
+  }
+  &_details {
+    margin-left: 10px;
+    &-name {
+      font-size: 18px;
+    }
+    &-text {
+      word-break: break-word;
+      color: $text-secondary;
+    }
+    &-time {
+      color: #8f8f8f;
+    }
+  }
+}
