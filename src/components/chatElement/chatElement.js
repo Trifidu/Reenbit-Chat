@@ -3,7 +3,7 @@ import UserAvatar from "../userAvatar/UserAvatar";
 
 import "./chatElement.scss";
 
-const ChatElement = ({ user }) => {
+const ChatElement = ({ user, mes }) => {
   const timeOptions = {
     month: "short",
     day: "numeric",
@@ -13,13 +13,13 @@ const ChatElement = ({ user }) => {
   return (
     <div className="chatElement">
       <div className="chatElement_info">
-        <UserAvatar url={user.image} read={user.read} />
+        <UserAvatar url={user.avatar} read={user.read} />
         <div className="chatElement_details">
           <div className="chatElement_details-name">{user.name}</div>
           <div className="chatElement_details-text">{user.lastMessage}</div>
         </div>
         <div className="chatElement_details-time">
-          {user.lastMessageTime.toLocaleString("en-US", timeOptions)}
+          {new Date(user.lastMessageTime).toLocaleString("en-US", timeOptions)}
         </div>
       </div>
     </div>
