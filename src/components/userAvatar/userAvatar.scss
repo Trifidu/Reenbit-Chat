@@ -1,0 +1,24 @@
+.sidebar {
+  &_user {
+    display: inline-block;
+    position: relative;
+
+    &-avatar {
+      width: 64px;
+      height: 64px;
+      border-radius: 50%;
+    }
+    &-check {
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 30%;
+      &-read {
+        fill: #63a565;
+      }
+      &-unread {
+        fill: #972929;
+      }
+    }
+  }
+}
