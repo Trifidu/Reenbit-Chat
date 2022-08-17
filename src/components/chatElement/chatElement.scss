@@ -4,6 +4,7 @@
   padding: 20px;
   border-bottom: 1px solid $bg-border;
   transition: all 0.3s;
+  text-decoration: none;
   &:hover {
     background-color: $bg-main;
   }

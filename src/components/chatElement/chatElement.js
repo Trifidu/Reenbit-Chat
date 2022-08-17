@@ -3,7 +3,7 @@ import UserAvatar from "../userAvatar/UserAvatar";
 
 import "./chatElement.scss";
 
-const ChatElement = ({ user, mes }) => {
+const ChatElement = ({ user }) => {
   const timeOptions = {
     month: "short",
     day: "numeric",

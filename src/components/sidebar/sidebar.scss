@@ -1,7 +1,11 @@
 @import "../../style/variables";
 
 .sidebar {
-  width: 33%;
+  box-sizing: border-box;
+  position: fixed;
+  min-height: calc(100vh - 22px);
+  overflow: auto;
+  width: $sidebar-width;
   border-right: 1px solid $bg-border;
   &_header {
     padding: 10px;

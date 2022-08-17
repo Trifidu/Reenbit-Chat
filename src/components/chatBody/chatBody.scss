@@ -1,0 +1,25 @@
+@import "../../style/variables.scss";
+
+.chat {
+  margin-left: $sidebar-width;
+  display: flex;
+  flex-direction: column;
+  min-height: calc(100vh - 22px);
+  &_header {
+    display: flex;
+    align-items: center;
+    padding: 5px 10px;
+    background-color: $bg-secondary;
+    border-bottom: 1px solid $bg-border;
+  }
+  &_name {
+    margin-left: 15px;
+    font-weight: 400;
+  }
+  &_messages {
+    flex: 1 0 auto;
+  }
+  &_input {
+    flex: 0 0 auto;
+  }
+}

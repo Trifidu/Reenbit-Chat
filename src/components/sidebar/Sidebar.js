@@ -8,7 +8,6 @@ import ChatList from "../chatList/chatList";
 import mainUserAvatar from "../../resources/img/usersAvatars/mainUserAvatar.jpg";
 
 import "./sidebar.scss";
-import { render } from "@testing-library/react";
 
 class Sidebar extends React.Component {
   state = {
@@ -17,7 +16,7 @@ class Sidebar extends React.Component {
   };
 
   componentDidMount() {
-    axios.get(`test.json`).then((res) => {
+    axios.get(`data.json`).then((res) => {
       const contacts = res.data;
       this.setState({ contacts });
     });
@@ -39,7 +38,6 @@ class Sidebar extends React.Component {
   render() {
     const { contacts, term } = this.state;
     const visibleContacts = this.searchEmp(contacts, term);
-
     return (
       <aside className="sidebar">
         <div className="sidebar_header">

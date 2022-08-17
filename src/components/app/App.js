@@ -1,11 +1,9 @@
-import Sidebar from "../sidebar/Sidebar";
-import BottomBar from "../bottomBar/BottomBar";
+import Chat from "../../pages/Chat";
 
 function App() {
   return (
     <div className="app">
-      <Sidebar />
-      <BottomBar />
+      <Chat />
     </div>
   );
 }

@@ -2,14 +2,14 @@ import React from "react";
 
 import "./userAvatar.scss";
 
-const UserAvatar = ({ url = "", read }) => {
+const UserAvatar = ({ url, read }) => {
   let readClass = read
     ? "sidebar_user-check sidebar_user-check-read"
     : "sidebar_user-check sidebar_user-check-unread";
 
   return (
     <div className="sidebar_user">
-      <img src={url} alt="userName" className="sidebar_user-avatar" />
+      <img src={url} alt="user_avatar" className="sidebar_user-avatar" />
       <svg
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 512 512"
