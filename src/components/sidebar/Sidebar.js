@@ -41,7 +41,7 @@ class Sidebar extends React.Component {
     return (
       <aside className="sidebar">
         <div className="sidebar_header">
-          <UserAvatar url={mainUserAvatar} read="true" />
+          <UserAvatar url={mainUserAvatar} online="true" />
           <SearchPanel onUpdateSearch={this.onUpdateSearch} />
         </div>
         <div className="sidebar_chats">

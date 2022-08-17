@@ -1,5 +1,6 @@
 import React from "react";
 import UserAvatar from "../userAvatar/UserAvatar";
+import { Link } from "react-router-dom";
 
 import "./chatElement.scss";
 
@@ -13,7 +14,7 @@ const ChatElement = ({ user }) => {
   return (
     <div className="chatElement">
       <div className="chatElement_info">
-        <UserAvatar url={user.avatar} read={user.read} />
+        <UserAvatar url={user.avatar} online={user.online} />
         <div className="chatElement_details">
           <div className="chatElement_details-name">{user.name}</div>
           <div className="chatElement_details-text">{user.lastMessage}</div>
