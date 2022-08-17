@@ -1,5 +1,4 @@
 import React from "react";
-import axios from "axios";
 
 import UserAvatar from "../userAvatar/UserAvatar";
 import SearchPanel from "../searchPanel/SearchPanel";
@@ -10,16 +9,12 @@ import mainUserAvatar from "../../resources/img/usersAvatars/mainUserAvatar.jpg"
 import "./sidebar.scss";
 
 class Sidebar extends React.Component {
-  state = {
-    contacts: [],
-    term: "",
-  };
+  constructor(props) {
+    super(props);
 
-  componentDidMount() {
-    axios.get(`data.json`).then((res) => {
-      const contacts = res.data;
-      this.setState({ contacts });
-    });
+    this.state = {
+      term: "",
+    };
   }
 
   searchEmp = (items, term) => {
@@ -36,7 +31,8 @@ class Sidebar extends React.Component {
   };
 
   render() {
-    const { contacts, term } = this.state;
+    const { term } = this.state;
+    const { contacts } = this.props;
     const visibleContacts = this.searchEmp(contacts, term);
     return (
       <aside className="sidebar">
