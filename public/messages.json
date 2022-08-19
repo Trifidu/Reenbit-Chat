@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "contactID": 1,
+    "text": "enhance best-of-breed mindshare",
+    "time": "2022-07-31T08:58:53Z",
+    "fromContact": true
+  },
+  {
+    "id": 2,
+    "contactID": 9,
+    "text": "visualize plug-and-play bandwidth",
+    "time": "2021-11-27T04:29:30Z",
+    "fromContact": true
+  },
+  {
+    "id": 3,
+    "contactID": 14,
+    "text": "strategize turn-key experiences",
+    "time": "2022-02-21T04:45:31Z",
+    "fromContact": true
+  },
+  {
+    "id": 4,
+    "contactID": 12,
+    "text": "cultivate killer channels",
+    "time": "2021-09-24T14:53:27Z",
+    "fromContact": true
+  },
+  {
+    "id": 5,
+    "contactID": 13,
+    "text": "optimize back-end supply-chains",
+    "time": "2022-02-23T04:25:45Z",
+    "fromContact": false
+  },
+  {
+    "id": 6,
+    "contactID": 11,
+    "text": "syndicate robust action-items",
+    "time": "2022-08-10T17:46:02Z",
+    "fromContact": true
+  },
+  {
+    "id": 7,
+    "contactID": 11,
+    "text": "redefine bricks-and-clicks eyeballs",
+    "time": "2022-04-04T23:36:27Z",
+    "fromContact": true
+  },
+  {
+    "id": 8,
+    "contactID": 7,
+    "text": "implement synergistic convergence",
+    "time": "2022-01-07T12:47:16Z",
+    "fromContact": false
+  },
+  {
+    "id": 9,
+    "contactID": 4,
+    "text": "repurpose extensible metrics",
+    "time": "2021-09-15T02:23:45Z",
+    "fromContact": false
+  },
+  {
+    "id": 10,
+    "contactID": 1,
+    "text": "synthesize open-source networks",
+    "time": "2022-04-27T16:54:13Z",
+    "fromContact": true
+  },
+  {
+    "id": 11,
+    "contactID": 13,
+    "text": "cultivate user-centric bandwidth",
+    "time": "2022-06-24T23:47:59Z",
+    "fromContact": false
+  },
+  {
+    "id": 12,
+    "contactID": 1,
+    "text": "revolutionize granular bandwidth",
+    "time": "2022-04-02T17:18:33Z",
+    "fromContact": false
+  },
+  {
+    "id": 13,
+    "contactID": 7,
+    "text": "morph proactive functionalities",
+    "time": "2022-07-17T02:13:11Z",
+    "fromContact": true
+  },
+  {
+    "id": 14,
+    "contactID": 6,
+    "text": "brand bleeding-edge eyeballs",
+    "time": "2022-06-14T02:01:46Z",
+    "fromContact": false
+  },
+  {
+    "id": 15,
+    "contactID": 11,
+    "text": "orchestrate enterprise vortals",
+    "time": "2022-07-19T09:20:53Z",
+    "fromContact": false
+  },
+  {
+    "id": 16,
+    "contactID": 4,
+    "text": "reinvent value-added networks",
+    "time": "2022-05-09T22:24:07Z",
+    "fromContact": false
+  },
+  {
+    "id": 17,
+    "contactID": 2,
+    "text": "orchestrate cross-platform platforms",
+    "time": "2022-03-29T16:42:21Z",
+    "fromContact": true
+  },
+  {
+    "id": 18,
+    "contactID": 4,
+    "text": "extend virtual web-readiness",
+    "time": "2022-03-21T03:47:54Z",
+    "fromContact": true
+  },
+  {
+    "id": 19,
+    "contactID": 4,
+    "text": "redefine web-enabled bandwidth",
+    "time": "2022-03-16T18:35:52Z",
+    "fromContact": false
+  },
+  {
+    "id": 20,
+    "contactID": 10,
+    "text": "repurpose scalable partnerships",
+    "time": "2021-09-26T20:39:14Z",
+    "fromContact": true
+  },
+  {
+    "id": 21,
+    "contactID": 13,
+    "text": "strategize open-source web services",
+    "time": "2022-02-26T02:47:05Z",
+    "fromContact": false
+  },
+  {
+    "id": 22,
+    "contactID": 15,
+    "text": "leverage global deliverables",
+    "time": "2022-03-11T19:53:58Z",
+    "fromContact": true
+  },
+  {
+    "id": 23,
+    "contactID": 1,
+    "text": "enable bricks-and-clicks users",
+    "time": "2022-01-24T00:37:28Z",
+    "fromContact": true
+  },
+  {
+    "id": 24,
+    "contactID": 9,
+    "text": "matrix 24/365 mindshare",
+    "time": "2022-06-03T04:22:58Z",
+    "fromContact": false
+  },
+  {
+    "id": 25,
+    "contactID": 1,
+    "text": "enable holistic architectures",
+    "time": "2022-03-31T15:26:34Z",
+    "fromContact": false
+  },
+  {
+    "id": 26,
+    "contactID": 11,
+    "text": "facilitate collaborative communities",
+    "time": "2021-11-18T00:43:03Z",
+    "fromContact": true
+  },
+  {
+    "id": 27,
+    "contactID": 6,
+    "text": "deliver proactive solutions",
+    "time": "2021-10-16T02:24:30Z",
+    "fromContact": false
+  },
+  {
+    "id": 28,
+    "contactID": 8,
+    "text": "maximize out-of-the-box ROI",
+    "time": "2022-04-11T15:35:10Z",
+    "fromContact": false
+  },
+  {
+    "id": 29,
+    "contactID": 15,
+    "text": "enable rich eyeballs",
+    "time": "2021-08-30T01:50:13Z",
+    "fromContact": true
+  },
+  {
+    "id": 30,
+    "contactID": 1,
+    "text": "drive scalable experiences",
+    "time": "2022-05-05T03:11:28Z",
+    "fromContact": true
+  },
+  {
+    "id": 31,
+    "contactID": 2,
+    "text": "recontextualize end-to-end ROI",
+    "time": "2022-06-03T18:33:54Z",
+    "fromContact": true
+  },
+  {
+    "id": 32,
+    "contactID": 14,
+    "text": "synergize real-time deliverables",
+    "time": "2021-11-19T20:24:40Z",
+    "fromContact": false
+  },
+  {
+    "id": 33,
+    "contactID": 14,
+    "text": "streamline ubiquitous mindshare",
+    "time": "2022-06-14T13:19:14Z",
+    "fromContact": true
+  },
+  {
+    "id": 34,
+    "contactID": 7,
+    "text": "visualize global bandwidth",
+    "time": "2022-01-27T22:01:22Z",
+    "fromContact": true
+  },
+  {
+    "id": 35,
+    "contactID": 10,
+    "text": "utilize global ROI",
+    "time": "2022-06-11T12:08:25Z",
+    "fromContact": true
+  },
+  {
+    "id": 36,
+    "contactID": 15,
+    "text": "whiteboard user-centric metrics",
+    "time": "2022-07-20T21:07:27Z",
+    "fromContact": true
+  },
+  {
+    "id": 37,
+    "contactID": 12,
+    "text": "incubate cross-media platforms",
+    "time": "2021-10-20T12:53:50Z",
+    "fromContact": false
+  },
+  {
+    "id": 38,
+    "contactID": 7,
+    "text": "enhance magnetic solutions",
+    "time": "2022-07-02T19:59:26Z",
+    "fromContact": false
+  },
+  {
+    "id": 39,
+    "contactID": 11,
+    "text": "disintermediate mission-critical solutions",
+    "time": "2022-07-19T21:50:39Z",
+    "fromContact": true
+  },
+  {
+    "id": 40,
+    "contactID": 2,
+    "text": "embrace collaborative infrastructures",
+    "time": "2022-04-18T16:22:00Z",
+    "fromContact": false
+  },
+  {
+    "id": 41,
+    "contactID": 1,
+    "text": "exploit user-centric infomediaries",
+    "time": "2021-09-28T17:23:02Z",
+    "fromContact": true
+  },
+  {
+    "id": 42,
+    "contactID": 7,
+    "text": "incubate rich eyeballs",
+    "time": "2022-05-01T14:06:49Z",
+    "fromContact": false
+  },
+  {
+    "id": 43,
+    "contactID": 4,
+    "text": "recontextualize dot-com e-tailers",
+    "time": "2022-04-19T21:26:54Z",
+    "fromContact": false
+  },
+  {
+    "id": 44,
+    "contactID": 15,
+    "text": "expedite 24/7 users",
+    "time": "2021-09-27T00:19:59Z",
+    "fromContact": true
+  },
+  {
+    "id": 45,
+    "contactID": 3,
+    "text": "strategize revolutionary convergence",
+    "time": "2021-11-11T20:40:22Z",
+    "fromContact": false
+  },
+  {
+    "id": 46,
+    "contactID": 4,
+    "text": "deliver end-to-end metrics",
+    "time": "2021-09-30T20:57:03Z",
+    "fromContact": true
+  },
+  {
+    "id": 47,
+    "contactID": 11,
+    "text": "unleash proactive relationships",
+    "time": "2022-03-25T21:00:18Z",
+    "fromContact": false
+  },
+  {
+    "id": 48,
+    "contactID": 4,
+    "text": "mesh cross-platform mindshare",
+    "time": "2022-01-27T16:08:22Z",
+    "fromContact": true
+  },
+  {
+    "id": 49,
+    "contactID": 10,
+    "text": "cultivate scalable supply-chains",
+    "time": "2021-11-06T00:41:36Z",
+    "fromContact": true
+  },
+  {
+    "id": 50,
+    "contactID": 4,
+    "text": "syndicate robust interfaces",
+    "time": "2021-11-18T19:52:34Z",
+    "fromContact": false
+  },
+  {
+    "id": 51,
+    "contactID": 4,
+    "text": "aggregate 24/7 systems",
+    "time": "2022-05-05T15:43:27Z",
+    "fromContact": true
+  },
+  {
+    "id": 52,
+    "contactID": 9,
+    "text": "incentivize cross-platform networks",
+    "time": "2022-03-07T13:36:17Z",
+    "fromContact": true
+  },
+  {
+    "id": 53,
+    "contactID": 14,
+    "text": "maximize ubiquitous metrics",
+    "time": "2021-09-09T06:30:26Z",
+    "fromContact": true
+  },
+  {
+    "id": 54,
+    "contactID": 4,
+    "text": "exploit cutting-edge infrastructures",
+    "time": "2022-02-21T14:55:43Z",
+    "fromContact": false
+  },
+  {
+    "id": 55,
+    "contactID": 6,
+    "text": "enhance next-generation supply-chains",
+    "time": "2021-08-27T07:51:43Z",
+    "fromContact": true
+  },
+  {
+    "id": 56,
+    "contactID": 5,
+    "text": "embrace clicks-and-mortar action-items",
+    "time": "2022-06-16T13:56:05Z",
+    "fromContact": false
+  },
+  {
+    "id": 57,
+    "contactID": 4,
+    "text": "strategize best-of-breed experiences",
+    "time": "2021-08-30T11:24:11Z",
+    "fromContact": false
+  },
+  {
+    "id": 58,
+    "contactID": 11,
+    "text": "orchestrate seamless technologies",
+    "time": "2022-07-05T04:54:51Z",
+    "fromContact": true
+  },
+  {
+    "id": 59,
+    "contactID": 1,
+    "text": "engineer enterprise e-tailers",
+    "time": "2022-07-24T16:53:47Z",
+    "fromContact": false
+  },
+  {
+    "id": 60,
+    "contactID": 4,
+    "text": "integrate end-to-end architectures",
+    "time": "2021-12-06T02:10:07Z",
+    "fromContact": false
+  },
+  {
+    "id": 61,
+    "contactID": 7,
+    "text": "visualize web-enabled initiatives",
+    "time": "2022-05-03T15:56:53Z",
+    "fromContact": true
+  },
+  {
+    "id": 62,
+    "contactID": 13,
+    "text": "optimize 24/365 vortals",
+    "time": "2022-01-03T20:14:22Z",
+    "fromContact": false
+  },
+  {
+    "id": 63,
+    "contactID": 2,
+    "text": "streamline strategic paradigms",
+    "time": "2022-06-28T17:47:36Z",
+    "fromContact": true
+  },
+  {
+    "id": 64,
+    "contactID": 12,
+    "text": "synergize distributed partnerships",
+    "time": "2022-02-20T10:04:25Z",
+    "fromContact": false
+  },
+  {
+    "id": 65,
+    "contactID": 13,
+    "text": "optimize cutting-edge architectures",
+    "time": "2021-11-08T22:06:37Z",
+    "fromContact": true
+  },
+  {
+    "id": 66,
+    "contactID": 5,
+    "text": "facilitate web-enabled paradigms",
+    "time": "2022-04-02T04:15:50Z",
+    "fromContact": true
+  },
+  {
+    "id": 67,
+    "contactID": 12,
+    "text": "utilize seamless web-readiness",
+    "time": "2022-08-11T12:01:06Z",
+    "fromContact": false
+  },
+  {
+    "id": 68,
+    "contactID": 7,
+    "text": "recontextualize value-added supply-chains",
+    "time": "2022-03-07T16:22:59Z",
+    "fromContact": true
+  },
+  {
+    "id": 69,
+    "contactID": 11,
+    "text": "incentivize seamless infrastructures",
+    "time": "2022-08-02T23:50:29Z",
+    "fromContact": false
+  },
+  {
+    "id": 70,
+    "contactID": 7,
+    "text": "envisioneer enterprise schemas",
+    "time": "2022-07-13T06:39:05Z",
+    "fromContact": false
+  },
+  {
+    "id": 71,
+    "contactID": 2,
+    "text": "revolutionize integrated metrics",
+    "time": "2021-10-10T11:39:17Z",
+    "fromContact": false
+  },
+  {
+    "id": 72,
+    "contactID": 9,
+    "text": "deliver ubiquitous experiences",
+    "time": "2022-07-06T21:53:34Z",
+    "fromContact": false
+  },
+  {
+    "id": 73,
+    "contactID": 9,
+    "text": "drive sexy users",
+    "time": "2021-09-26T03:26:18Z",
+    "fromContact": false
+  },
+  {
+    "id": 74,
+    "contactID": 14,
+    "text": "architect bleeding-edge initiatives",
+    "time": "2022-01-04T17:54:09Z",
+    "fromContact": true
+  },
+  {
+    "id": 75,
+    "contactID": 9,
+    "text": "engage 24/7 schemas",
+    "time": "2022-05-21T22:29:51Z",
+    "fromContact": true
+  },
+  {
+    "id": 76,
+    "contactID": 2,
+    "text": "deploy open-source networks",
+    "time": "2022-02-08T22:23:10Z",
+    "fromContact": true
+  },
+  {
+    "id": 77,
+    "contactID": 4,
+    "text": "iterate holistic infrastructures",
+    "time": "2022-05-11T09:08:36Z",
+    "fromContact": true
+  },
+  {
+    "id": 78,
+    "contactID": 7,
+    "text": "aggregate next-generation mindshare",
+    "time": "2022-04-02T23:11:55Z",
+    "fromContact": false
+  },
+  {
+    "id": 79,
+    "contactID": 11,
+    "text": "enhance global communities",
+    "time": "2022-03-13T10:02:18Z",
+    "fromContact": true
+  },
+  {
+    "id": 80,
+    "contactID": 10,
+    "text": "deliver back-end systems",
+    "time": "2022-08-13T12:43:34Z",
+    "fromContact": true
+  },
+  {
+    "id": 81,
+    "contactID": 13,
+    "text": "reinvent interactive synergies",
+    "time": "2022-02-02T10:46:18Z",
+    "fromContact": false
+  },
+  {
+    "id": 82,
+    "contactID": 12,
+    "text": "implement dynamic action-items",
+    "time": "2022-02-13T16:32:05Z",
+    "fromContact": false
+  },
+  {
+    "id": 83,
+    "contactID": 13,
+    "text": "empower front-end e-services",
+    "time": "2022-07-07T15:22:15Z",
+    "fromContact": true
+  },
+  {
+    "id": 84,
+    "contactID": 9,
+    "text": "streamline open-source relationships",
+    "time": "2022-06-09T03:44:22Z",
+    "fromContact": true
+  },
+  {
+    "id": 85,
+    "contactID": 12,
+    "text": "iterate collaborative systems",
+    "time": "2022-01-14T23:04:51Z",
+    "fromContact": true
+  },
+  {
+    "id": 86,
+    "contactID": 5,
+    "text": "embrace transparent infrastructures",
+    "time": "2021-11-29T05:49:43Z",
+    "fromContact": false
+  },
+  {
+    "id": 87,
+    "contactID": 10,
+    "text": "mesh best-of-breed bandwidth",
+    "time": "2021-09-19T11:09:27Z",
+    "fromContact": true
+  },
+  {
+    "id": 88,
+    "contactID": 4,
+    "text": "orchestrate B2C convergence",
+    "time": "2022-04-17T00:05:34Z",
+    "fromContact": true
+  },
+  {
+    "id": 89,
+    "contactID": 9,
+    "text": "reinvent strategic communities",
+    "time": "2022-05-06T00:14:46Z",
+    "fromContact": false
+  },
+  {
+    "id": 90,
+    "contactID": 6,
+    "text": "visualize sticky vortals",
+    "time": "2022-02-07T02:31:09Z",
+    "fromContact": false
+  },
+  {
+    "id": 91,
+    "contactID": 8,
+    "text": "enable compelling schemas",
+    "time": "2022-05-29T02:05:27Z",
+    "fromContact": false
+  },
+  {
+    "id": 92,
+    "contactID": 7,
+    "text": "morph seamless paradigms",
+    "time": "2022-08-02T03:50:44Z",
+    "fromContact": true
+  },
+  {
+    "id": 93,
+    "contactID": 3,
+    "text": "utilize end-to-end systems",
+    "time": "2022-04-24T18:54:02Z",
+    "fromContact": true
+  },
+  {
+    "id": 94,
+    "contactID": 7,
+    "text": "recontextualize sticky experiences",
+    "time": "2022-06-30T11:07:47Z",
+    "fromContact": true
+  },
+  {
+    "id": 95,
+    "contactID": 9,
+    "text": "repurpose back-end communities",
+    "time": "2021-10-13T02:32:15Z",
+    "fromContact": true
+  },
+  {
+    "id": 96,
+    "contactID": 14,
+    "text": "engage bleeding-edge action-items",
+    "time": "2022-04-19T21:34:23Z",
+    "fromContact": true
+  },
+  {
+    "id": 97,
+    "contactID": 7,
+    "text": "unleash vertical solutions",
+    "time": "2022-04-21T15:20:59Z",
+    "fromContact": true
+  },
+  {
+    "id": 98,
+    "contactID": 6,
+    "text": "disintermediate user-centric experiences",
+    "time": "2021-09-22T03:20:54Z",
+    "fromContact": false
+  },
+  {
+    "id": 99,
+    "contactID": 11,
+    "text": "incentivize 24/365 technologies",
+    "time": "2022-08-08T07:18:25Z",
+    "fromContact": false
+  },
+  {
+    "id": 100,
+    "contactID": 1,
+    "text": "whiteboard bleeding-edge functionalities",
+    "time": "2022-02-19T16:00:26Z",
+    "fromContact": true
+  }
+]

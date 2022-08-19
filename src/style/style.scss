@@ -18,3 +18,16 @@ html {
   width: 0px;
   background: transparent;
 }
+
+::-webkit-input-placeholder {
+  color: $text-secondary;
+}
+:-moz-placeholder {
+  color: $text-secondary;
+}
+::-moz-placeholder {
+  color: $text-secondary;
+}
+:-ms-input-placeholder {
+  color: $text-secondary;
+}

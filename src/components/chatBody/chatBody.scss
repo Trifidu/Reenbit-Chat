@@ -6,20 +6,33 @@
   flex-direction: column;
   min-height: calc(100vh - 22px);
   &_header {
+    position: fixed;
+    width: 100%;
     display: flex;
     align-items: center;
+    height: 85px;
     padding: 5px 10px;
     background-color: $bg-secondary;
     border-bottom: 1px solid $bg-border;
+    z-index: 9;
   }
   &_name {
     margin-left: 15px;
     font-weight: 400;
   }
   &_messages {
-    flex: 1 0 auto;
+    overflow: auto;
+    margin-bottom: 140px;
+    margin-top: 85px;
   }
   &_input {
-    flex: 0 0 auto;
+    height: 140px;
+    box-sizing: border-box;
+    position: fixed;
+    bottom: 0;
+    width: $other-width;
+    padding: 30px 20px;
+    border-top: 1px $bg-border solid;
+    background-color: $bg-secondary;
   }
 }

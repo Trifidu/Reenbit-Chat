@@ -1,0 +1,46 @@
+@import "../../style/variables.scss";
+
+.message {
+  &_get {
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 15px;
+    align-items: center;
+    & .message_text {
+      margin-left: 10px;
+      color: white;
+    }
+  }
+  &_send {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 15px;
+    & .message_text {
+      background-color: $msg-send;
+      color: black;
+    }
+    & .message_time {
+      margin-right: 10px;
+      text-align: right;
+    }
+  }
+  &_text {
+    display: inline-block;
+    border-radius: 50px;
+    background-color: $msg-get;
+    padding: 20px;
+    word-break: break-word;
+  }
+  &_wrapper {
+    max-width: 55%;
+    display: flex;
+  }
+  &_time {
+    margin-top: 5px;
+    margin-left: 20px;
+    color: $text-secondary;
+  }
+}
