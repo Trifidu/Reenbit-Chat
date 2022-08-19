@@ -11,13 +11,12 @@ import "./sidebar.scss";
 
 const Sidebar = () => {
   const [searchedContacts, setSearchedContacts] = useState([]);
-  const [searchedMessages, setSearchedMessages] = useState([]);
-  //todo: add search by messages
   const [search, setSearch] = useState("");
   const { contacts, messages } = useContext(ContactsContext);
 
   useEffect(() => {
     setSearchedContacts(contacts);
+    // eslint-disable-next-line
   }, []);
 
   useEffect(() => {
