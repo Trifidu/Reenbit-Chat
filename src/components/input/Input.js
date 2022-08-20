@@ -54,8 +54,8 @@ const Input = () => {
     <>
       <input
         type="text"
-        placeholder="Type your message"
         className="input"
+        placeholder="Type your message"
         value={value}
         onChange={(e) => setValue(e.target.value)}
         onKeyUp={handleKeypress}

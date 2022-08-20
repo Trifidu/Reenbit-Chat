@@ -1,15 +1,15 @@
 @import "../style/_variables";
 
 .login_page {
-  position: relative;
-  //   top: 50%;
-  //   transform: translateY(-50%);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
   &-container {
-    margin: 0 auto;
-    width: 310px;
-    height: 300px;
+    width: 400px;
+    height: 280px;
+    padding: 45px 85px 10px 85px;
     background-color: $bg-main;
-    border-radius: 20px;
     padding-bottom: 30px;
     display: flex;
     align-items: center;
@@ -17,18 +17,93 @@
     flex-direction: column;
     box-shadow: rgba(99, 99, 99, 0.2) 0 2px 8px 0;
   }
-  &-header {
-    width: 100%;
+  &-title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000000;
+  }
+  &-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+  &-input {
+    width: 238px;
+    height: 33px;
+    background: #f7f7f7;
+    border: 2px solid #e5e5e5;
+    border-radius: 10px;
+    font-size: 14px;
+    line-height: 16px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  &-btn {
+    width: 245px;
+    height: 33px;
+    margin-bottom: 5px;
+    background: #1cb0f6;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none;
+    border-bottom: 3px solid #1890c9;
+    transition: all 0.2s;
+    cursor: pointer;
+    &:hover {
+      border: none;
+    }
+  }
+  &-or {
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 14px;
+    color: #afafaf;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    &:before,
+    &:after {
+      content: " ";
+      display: inline-block;
+      width: 90px;
+      height: 1px;
+      background-color: #afafaf;
+    }
+    &:before {
+      margin-right: 15px;
+    }
+    &:after {
+      margin-left: 15px;
+    }
+  }
+  &-google {
+    width: 150px;
     height: 50px;
-    margin-bottom: 20px;
-    background-color: $bg-secondary;
-    border-top-right-radius: 20px;
-    border-top-left-radius: 20px;
+    background: #ffffff;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+    transition: all 0.3s;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
     display: flex;
     justify-content: center;
     align-items: center;
-  }
-  &-title {
-    color: #4792b9;
+    text-align: center;
+    cursor: pointer;
+    &:hover {
+      transform: scale(1.1);
+    }
+    & img {
+      margin-right: 5px;
+    }
   }
 }
