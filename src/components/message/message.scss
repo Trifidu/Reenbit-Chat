@@ -34,6 +34,11 @@
     padding: 20px;
     word-break: break-word;
   }
+  &_content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
   &_wrapper {
     max-width: 55%;
     display: flex;

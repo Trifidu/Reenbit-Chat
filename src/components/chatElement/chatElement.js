@@ -35,7 +35,11 @@ const ChatElement = ({ contact, messages }) => {
           <UserAvatar url={contact.avatar} online={contact.online} />
           <div className="chatElement_details">
             <div className="chatElement_details-name">{contact.name}</div>
-            <div className="chatElement_details-text">{lastMessage}</div>
+            <div className="chatElement_details-text">
+              {lastMessage.length > 60
+                ? `${lastMessage.slice(0, 60)} ...`
+                : lastMessage}
+            </div>
           </div>
           <div className="chatElement_details-time">{lastMessageTime}</div>
         </div>

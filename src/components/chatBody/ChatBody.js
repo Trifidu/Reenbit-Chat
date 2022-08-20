@@ -21,6 +21,10 @@ const ChatBody = () => {
     setCurrentChatMessages(curMessages);
   }, [id, messages, contacts]);
 
+  useEffect(() => {
+    window.scrollTo(0, document.body.scrollHeight);
+  }, [currentChatMessages]);
+
   return (
     <div className="chat">
       <div className="chat_header">
