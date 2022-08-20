@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { Route, Routes } from "react-router-dom";
+import { Route, Routes, useLocation } from "react-router-dom";
 import { ContactsContext } from "../context/contactsContext";
 // import axios from "axios";
 
@@ -11,6 +11,9 @@ import getData from "../services/ChatService";
 const ChatPage = () => {
   const [contacts, setContacts] = useState([]);
   const [messages, setMessages] = useState([]);
+
+  const location = useLocation();
+  const pageId = location.pathname.slice(6);
 
   useEffect(() => {
     // getData(`/contacts.json`, setContacts);
@@ -60,8 +63,37 @@ const ChatPage = () => {
     //   });
   };
 
+  const checkChat = (contact, contactMessages, setUnreadMessage) => {
+    if (pageId == contact.id) {
+      contactMessages.map((message) => (message.read = true));
+      const unreadMessages = contactMessages.filter(
+        (message) => message.read === false
+      );
+      setUnreadMessage(unreadMessages.length);
+      localStorage.localMessages = JSON.stringify(messages);
+
+      console.log("save local");
+    }
+  };
+
+  const checkUnreadMessage = (contactMessages, setUnreadMessage) => {
+    const unreadMessages = contactMessages.filter(
+      (message) => message.read === false
+    );
+    setUnreadMessage(unreadMessages.length);
+    console.log("checkUnreadMessage");
+  };
+
   return (
-    <ContactsContext.Provider value={{ contacts, messages, addMessage }}>
+    <ContactsContext.Provider
+      value={{
+        contacts,
+        messages,
+        addMessage,
+        checkUnreadMessage,
+        checkChat,
+      }}
+    >
       <Sidebar />
       <Routes>
         <Route path=":id" element={<ChatBody />} />

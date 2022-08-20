@@ -7,11 +7,21 @@ const ChatList = ({ contacts, messages }) => {
       const userMessages = messages
         .filter((message) => message.contactID === contact.id)
         .sort((a, b) => new Date(a.time) - new Date(b.time));
-      return <ChatElement key={id} contact={contact} messages={userMessages} />;
+      return (
+        <ChatElement
+          key={id}
+          contact={contact}
+          contactMessages={userMessages}
+        />
+      );
     })
     .sort((a, b) =>
-      Date.parse(a.props.messages[a.props.messages.length - 1].time) <
-      Date.parse(b.props.messages[b.props.messages.length - 1].time)
+      Date.parse(
+        a.props.contactMessages[a.props.contactMessages.length - 1].time
+      ) <
+      Date.parse(
+        b.props.contactMessages[b.props.contactMessages.length - 1].time
+      )
         ? 1
         : -1
     );

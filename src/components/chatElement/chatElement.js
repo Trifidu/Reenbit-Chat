@@ -1,10 +1,11 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import UserAvatar from "../userAvatar/UserAvatar";
 import { NavLink } from "react-router-dom";
+import { ContactsContext } from "../../context/contactsContext";
 
 import "./chatElement.scss";
 
-const ChatElement = ({ contact, messages }) => {
+const ChatElement = ({ contact, contactMessages }) => {
   const timeOptions = {
     month: "short",
     day: "numeric",
@@ -15,8 +16,10 @@ const ChatElement = ({ contact, messages }) => {
   const [lastMessageTime, setLastMessageTime] = useState("");
   const [unreadMessage, setUnreadMessage] = useState("");
 
+  const { checkChat, checkUnreadMessage } = useContext(ContactsContext);
+
   useEffect(() => {
-    const sortMessages = [...messages];
+    const sortMessages = [...contactMessages];
     sortMessages.sort((a, b) => new Date(b.time) - new Date(a.time));
     if (sortMessages.length) {
       setLastMessage(sortMessages[0].text);
@@ -24,13 +27,12 @@ const ChatElement = ({ contact, messages }) => {
       setLastMessageTime(date.toLocaleString("en-US", timeOptions));
     }
     // eslint-disable-next-line
-  }, [messages]);
+  }, [contactMessages]);
 
   useEffect(() => {
-    const unreadMessage = messages.filter((message) => message.read === false);
-    setUnreadMessage(unreadMessage.length);
-    console.log("render ChatElement");
-  }, [messages, unreadMessage, contact]);
+    checkChat(contact, contactMessages, setUnreadMessage);
+    checkUnreadMessage(contactMessages, setUnreadMessage);
+  }, [contactMessages]);
 
   return (
     <NavLink
