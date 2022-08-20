@@ -34,20 +34,20 @@ const ChatPage = () => {
   const addMessage = (message) => {
     setMessages((messages) => [...messages, message]);
 
-    axios
-      .post(`/messages.json`, {
-        id: message.id,
-        contactID: message.contactID,
-        text: message.text,
-        time: message.time,
-        fromContact: message.fromContact,
-      })
-      .then(function (response) {
-        setMessages((messages) => [...messages, message]);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
+    // axios
+    //   .post(`/messages.json`, {
+    //     id: message.id,
+    //     contactID: message.contactID,
+    //     text: message.text,
+    //     time: message.time,
+    //     fromContact: message.fromContact,
+    //   })
+    //   .then(function (response) {
+    //     setMessages((messages) => [...messages, message]);
+    //   })
+    //   .catch(function (error) {
+    //     console.log(error);
+    //   });
 
     // axios
     //   .put(`/contacts.json`, {
