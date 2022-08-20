@@ -9,9 +9,7 @@ const ChatList = ({ contacts, messages }) => {
         .sort((a, b) => new Date(a.time) - new Date(b.time));
       return <ChatElement key={id} contact={contact} messages={userMessages} />;
     })
-    // console.log(elements)
     .sort((a, b) =>
-      // console.log(a.props.messages[a.props.messages.length - 1].time)
       Date.parse(a.props.messages[a.props.messages.length - 1].time) <
       Date.parse(b.props.messages[b.props.messages.length - 1].time)
         ? 1

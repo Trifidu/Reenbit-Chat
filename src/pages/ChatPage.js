@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Route, Routes } from "react-router-dom";
 import { ContactsContext } from "../context/contactsContext";
-import axios from "axios";
+// import axios from "axios";
 
 import Sidebar from "../components/sidebar/Sidebar";
 import ChatBody from "../components/chatBody/ChatBody";

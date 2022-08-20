@@ -12,18 +12,19 @@ const Input = () => {
   const { addMessage } = useContext(ContactsContext);
   const params = useParams();
 
-  const createMessage = (text, fromContact = false) => {
+  const createMessage = (text, fromContact = false, read = true) => {
     return {
       id: new Date(),
       contactID: +params.id,
       text,
       time: new Date(),
       fromContact,
+      read,
     };
   };
 
   function handleKeypress(e) {
-    if (e.key === "Enter") {
+    if (e.key === "Enter" && value.length > 0) {
       addMessage(createMessage(value));
       getNewMessage();
       setValue("");
@@ -31,9 +32,11 @@ const Input = () => {
   }
 
   function handleClick() {
-    addMessage(createMessage(value));
-    getNewMessage();
-    setValue("");
+    if (value.length > 0) {
+      addMessage(createMessage(value));
+      getNewMessage();
+      setValue("");
+    }
   }
 
   function getNewMessage() {
@@ -42,7 +45,7 @@ const Input = () => {
       .then((res) => res.data)
       .then((data) => {
         setTimeout(() => {
-          addMessage(createMessage(data.value, true));
+          addMessage(createMessage(data.value, true, false));
         }, 10000);
       });
   }

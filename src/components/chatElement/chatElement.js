@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import UserAvatar from "../userAvatar/UserAvatar";
-import { Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 import "./chatElement.scss";
 
@@ -13,6 +13,7 @@ const ChatElement = ({ contact, messages }) => {
 
   const [lastMessage, setLastMessage] = useState("");
   const [lastMessageTime, setLastMessageTime] = useState("");
+  const [unreadMessage, setUnreadMessage] = useState("");
 
   useEffect(() => {
     const sortMessages = [...messages];
@@ -25,10 +26,18 @@ const ChatElement = ({ contact, messages }) => {
     // eslint-disable-next-line
   }, [messages]);
 
+  useEffect(() => {
+    const unreadMessage = messages.filter((message) => message.read === false);
+    setUnreadMessage(unreadMessage.length);
+    console.log("render ChatElement");
+  }, [messages, unreadMessage, contact]);
+
   return (
-    <Link
+    <NavLink
       to={`/chat/${contact.id}`}
-      style={{ textDecoration: "none", color: "inherit" }}
+      className={({ isActive }) =>
+        isActive ? "contact_link-active" : "contact_link"
+      }
     >
       <div className="chatElement">
         <div className="chatElement_info">
@@ -41,10 +50,19 @@ const ChatElement = ({ contact, messages }) => {
                 : lastMessage}
             </div>
           </div>
-          <div className="chatElement_details-time">{lastMessageTime}</div>
+          <div>
+            <div className="chatElement_details-time">{lastMessageTime}</div>
+            <div
+              className={
+                unreadMessage > 0 ? "chatElement_details-newmsg" : null
+              }
+            >
+              {unreadMessage > 0 ? unreadMessage : null}
+            </div>
+          </div>
         </div>
       </div>
-    </Link>
+    </NavLink>
   );
 };
 
