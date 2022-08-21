@@ -24,6 +24,13 @@ const LoginForm = () => {
     },
     validationSchema: LoginFormSchema,
     onSubmit: (values) => {
+      localStorage.setItem(
+        "PasswordLogin",
+        JSON.stringify({
+          username: values.username,
+          password: values.password,
+        })
+      );
       navigate("/chat");
     },
   });
@@ -54,10 +61,7 @@ const LoginForm = () => {
         value={formik.values.password}
         autoComplete="on"
       />
-
-      {/* <Link to="/chat"> */}
       <input className="login_page-btn" type="submit" value="Login" />
-      {/* </Link> */}
     </form>
   );
 };
