@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import LoginForm from "../components/loginForm/LoginForm";
 
 import google from "../resources/img/google.svg";
 import "./loginPage.scss";
@@ -9,27 +9,8 @@ const LoginPage = () => {
       <div className="login_page-container">
         {/* check login */}
         <h2 className="login_page-title">Login</h2>
-        <form action="login_page" className="login_page-form">
-          <input
-            name="username"
-            className="login_page-input"
-            type="text"
-            placeholder="Email or Username"
-            required
-          />
-          <input
-            name="password"
-            className="login_page-input"
-            type="text"
-            placeholder="Password"
-            required
-          />
-
-          {/* <Link to="/chat"> */}
-          <input className="login_page-btn" type="submit" value="Enter" />
-          {/* </Link> */}
-          <div className="login_page-or">or</div>
-        </form>
+        <LoginForm />
+        <div className="login_page-or">or</div>
         <button className="login_page-google">
           <img src={google} alt="google" />
           <span style={{ color: "#4285F4" }}>G</span>
