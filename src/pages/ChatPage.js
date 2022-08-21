@@ -64,6 +64,7 @@ const ChatPage = () => {
   };
 
   const checkChat = (contact, contactMessages, setUnreadMessage) => {
+    // eslint-disable-next-line
     if (pageId == contact.id) {
       contactMessages.map((message) => (message.read = true));
       const unreadMessages = contactMessages.filter(

@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import GoogleLogin from "react-google-login";
 import { gapi } from "gapi-script";
@@ -21,19 +21,12 @@ const LoginGoogle = () => {
 
   useEffect(() => {});
 
-  const [loginData, setLoginData] = useState(
-    localStorage.getItem("GoogleLogin")
-      ? JSON.parse(localStorage.getItem("GoogleLogin"))
-      : null
-  );
-
   const handleFailure = (result) => {
     console.log("FAILED", result);
   };
 
   const handleLogin = async (googleData) => {
     console.log("SUCCESS ", googleData);
-    setLoginData(googleData);
     localStorage.setItem("GoogleLogin", JSON.stringify(googleData));
     navigate("/chat");
   };

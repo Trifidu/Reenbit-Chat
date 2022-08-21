@@ -32,6 +32,7 @@ const ChatElement = ({ contact, contactMessages }) => {
   useEffect(() => {
     checkChat(contact, contactMessages, setUnreadMessage);
     checkUnreadMessage(contactMessages, setUnreadMessage);
+    // eslint-disable-next-line
   }, [contactMessages]);
 
   return (
