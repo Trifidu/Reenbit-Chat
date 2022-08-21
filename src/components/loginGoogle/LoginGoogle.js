@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
-import GoogleLogin from "react-google-login";
+import GoogleLogin from "@leecheuk/react-google-login";
 import { gapi } from "gapi-script";
 
 import "./loginGoogle.scss";
