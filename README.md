@@ -16,4 +16,4 @@
 
 ## Link
 
-[heroku-Chat](https://reenbit-chat-trifidu.herokuapp.com/chat)
+[Heroku-Chat](https://reenbit-chat-trifidu.herokuapp.com/chat)
